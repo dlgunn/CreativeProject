@@ -14,10 +14,12 @@
 			@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Comforter&family=Fuzzy+Bubbles&family=Heebo:wght@900&family=Hi+Melody&family=Leckerli+One&family=Nunito&family=Pacifico&family=Permanent+Marker&family=Work+Sans:wght@400;500;600;700;900&family=Yellowtail&display=swap");
 		</style>
 		<link rel="stylesheet" href="../css/styles.css" />
+		<link rel="stylesheet" href="../css/submissionstyles.css" />
 		<link
 			rel="icon"
 			href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📖</text></svg>"
 		/>
+		<script src="../javascript/script.js"></script>
 
 		<title>Storywriter</title>
 	</head>
@@ -72,32 +74,34 @@
 					<h1>New Endings</h1>
 				</header>
 				<div class="story-wrapper">
-					<div class="story-wrapper">
-						<article>
-							<!-- <h1>The Boy who Disappeared</h1> -->
-							<h4 id="creation-date">Began Jan 29, 2022</h4>
-							<p>
-								It was 5th period in Mrs. Maple's class and no one was paying
-								attention to anything anymore. Judy Edwards had drawn each
-								person in the classroom twice. Derrick Hasam had eaten all seven
-								of the eggs he brought to class each day. Even Michael
-								Wordswerth, a certified teacher's pet, could barely put in the
-								effort to look up at Mrs. Maple. He had a glazed expression in
-								his eyes and his mouth was slightly open. Judy was 80% sure he
-								had fallen asleep with his eyes open somehow.
-							</p>
-							<a href="#" class="btn btn-primary" id="add-button"
-								>+ Add to Story</a
-							>
+					<article>
+						<!-- <h1>The Boy who Disappeared</h1> -->
+						<h4 id="creation-date">Began Jan 29, 2022</h4>
+						<p>
+							It was 5th period in Mrs. Maple's class and no one was paying
+							attention to anything anymore. Judy Edwards had drawn each person
+							in the classroom twice. Derrick Hasam had eaten all seven of the
+							eggs he brought to class each day. Even Michael Wordswerth, a
+							certified teacher's pet, could barely put in the effort to look up
+							at Mrs. Maple. He had a glazed expression in his eyes and his
+							mouth was slightly open. Judy was 80% sure he had fallen asleep
+							with his eyes open somehow.
+						</p>
+						<button
+							onclick="insertTextBox()"
+							class="btn btn-primary"
+							id="add-button"
+						>
+							+ Add to Story
+						</button>
 
-							<p>
-								(Features to add to stories are currently unavailable. Please
-								check back soon!)
-							</p>
+						<p>
+							(Currently, story additions will not be saved. Please check back
+							soon for updates!)
+						</p>
 
-							<!-- <button class="add-button" >+ Add to Story</button> -->
-						</article>
-					</div>
+						<!-- <button class="add-button" >+ Add to Story</button> -->
+					</article>
 				</div>
 			</section>
 
