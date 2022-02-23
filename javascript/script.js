@@ -1,3 +1,5 @@
+window.onload = insertTextBox;
+
 function insertTextBox() {
 	let text = document.createElement("textarea");
 	text.addEventListener("input", autoResize, false);
